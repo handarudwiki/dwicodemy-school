@@ -37,6 +37,8 @@ const TeacherForm = ({
     resolver: zodResolver(schema),
   });
 
+  console.log(register)
+
   const onSubmit = handleSubmit((data) => {
     console.log(data);
   });
